@@ -33,3 +33,20 @@ x
 )
 .
 
+![regressao](https://github.com/ViniciusCantanhede/imagens/raw/90b1280e0d696e78cf83e969b76dfe92964f7e51/Captura%20de%20tela%202024-03-26%20213217.png)
+
+**Forma Matricial:** 
+O modelo visto acima pode ser representado matricialmente, generalizando para o caso em que temos mais de uma variável explicativa.
+Como estimar os parâmetros com a representação matricial? Mesma ideia: minimizar os erros
+
+**Decomposição do QR:**
+Operações envolvendo a inversa de uma matriz podem ser bastante custosas do ponto de vista computacional, principalmente quando a matriz cresce em dimensões. 
+
+Uma alternativa bastante utilizada é a decomposição Sendo Xn × P uma matriz de posto completo (n > p, rank=p), então podemos decompor X em:
+ **X = QR** 
+
+ em que:
+
+**Q** tem dimensões n × p e **Q′Q =I**
+
+**R** tem dimensões p × p e é uma matriz triangular superior
