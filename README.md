@@ -54,5 +54,53 @@ Uma alternativa bastante utilizada é a decomposição Sendo Xn × P uma matriz 
 ![ychapeu](https://github.com/ViniciusCantanhede/imagens/raw/ab0034094d12f27c3bfda8e6a2ca4bdeedd834c2/ychapeu.png)
 
 ----------------------------------------------------------------------------------
-- **GradientDescent.ipynb** - 
-  
+- **GradientDescent.ipynb** - **Gradiente descendente** é um dos algoritmos de otimização mais populares e amplamente utilizado, principalmente em otimização de redes neurais. O algoritmo busca encontrar o mínimo de uma função 
+J
+(
+β
+)
+ de forma iterativa, em que 
+β
+ são os parâmetros do modelo. A ideia consiste em atualizar os parâmetros na direção oposta do gradiente 
+∇
+β
+J
+(
+β
+)
+ em relação aos parâmetros, ou seja, seguimos a direção da inclinação da região de resposta criada, em busca de um vale. Em sua forma mais simples, o algoritmo é definido como:
+
+![formula](https://github.com/ViniciusCantanhede/imagens/blob/338abe848c1add65e11d6e4f0cc2cada0cd44865/formula_gradiente.png)
+
+Em que 
+β
+(
+k
+)
+ são os valores do vetor de parâmetros no passo 
+k
+, 
+α
+ é a taxa de aprendizado (learning rate) e 
+∇
+β
+J
+(
+β
+)
+ é o gradiente da função de custo 
+L
+(
+⋅
+)
+, ou seja, o vetor de derivadas parciais em relação aos parâmetros 
+β
+. A taxa de aprendizado 
+α
+ determina o tamanho do passo em cada atualização, visando atingir o mínimo (local).
+ 
+![img](https://github.com/ViniciusCantanhede/imagens/blob/338abe848c1add65e11d6e4f0cc2cada0cd44865/funcaodeperda.png)
+
+Com uma taxa de aprendizado muito pequena são necessários muitas iterações para encontrar o mínimo. Todavia, caso a taxa de aprendizado seja muito grande, você pode acabar “pulando” o ponto de mínimo desejado.
+
+![img2](https://github.com/ViniciusCantanhede/imagens/blob/338abe848c1add65e11d6e4f0cc2cada0cd44865/pontominimo.png)
