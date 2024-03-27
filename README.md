@@ -50,3 +50,6 @@ Uma alternativa bastante utilizada é a decomposição Sendo Xn × P uma matriz 
 **Q** tem dimensões n × p e **Q′Q =I**
 
 **R** tem dimensões p × p e é uma matriz triangular superior
+
+
+![ychapeu](https://github.com/ViniciusCantanhede/imagens/raw/ab0034094d12f27c3bfda8e6a2ca4bdeedd834c2/ychapeu.png)
