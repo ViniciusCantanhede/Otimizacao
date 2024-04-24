@@ -104,3 +104,11 @@ L
 Com uma taxa de aprendizado muito pequena são necessários muitas iterações para encontrar o mínimo. Todavia, caso a taxa de aprendizado seja muito grande, você pode acabar “pulando” o ponto de mínimo desejado.
 
 ![img2](https://github.com/ViniciusCantanhede/imagens/blob/338abe848c1add65e11d6e4f0cc2cada0cd44865/pontominimo.png)
+
+-------------
+- **NewtonRaphson.ipynb** - O método Newton-Raphson é uma técnica iterativa para encontrar raízes de uma **equação não linear**. Ele utiliza um reta tangente em um ponto e então, tenta econtrar o ponto onde essa reta intersecta o eixo X, ou seja, onde a função é zero.
+
+
+
+
+
